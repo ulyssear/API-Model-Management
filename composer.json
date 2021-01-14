@@ -1,5 +1,7 @@
 {
   "name": "uarnaud/api_model_management",
+  "description": "Pas de description pour l'instant",
+  "license": "MIT",
   "type": "project",
   "require": {
     "maximebf/debugbar": "^1.16",
