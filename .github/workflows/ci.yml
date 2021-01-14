@@ -14,14 +14,14 @@ jobs:
       - name: Validate composer.json and composer.lock
         run: composer validate
 
-      - name: Install dependencies
-        run: composer install --prefer-dist --no-progress --no-suggest
-
   quality-php:
     name: Quality checks
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+
+      - name: Install dependencies
+        run: composer install --prefer-dist --no-progress --no-suggest
 
       #     PHP Code Sniffer pas encore implémenté
       - name: PHP Code Sniffer
