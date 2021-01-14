@@ -31,7 +31,7 @@ jobs:
       #     PHP Mess Detector pas encore implémenté
       - name: PHP Mess Detector
         if: ${{ always() }}
-        run: vendor/bin/phpmd src/ text codesize,controversial,phpmd.xml
+        run: vendor/bin/phpmd src/ text codesize,controversial,config/phpmd.xml
 
       #     PHP Stan pas encore implémenté
       - name: PHP Stan
