@@ -41,7 +41,7 @@ jobs:
       #     PHPUnit pas encore implémenté
       - name: PHP Unit tests
         if: ${{ always() }}
-        run: bin/phpunit
+        run: vendor/bin/phpunit
 
   # NPM n'est pas encore implémenté
   quality-npm:
