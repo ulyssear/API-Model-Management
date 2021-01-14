@@ -1,0 +1,19 @@
+{
+  "name": "uarnaud/api_model_management",
+  "type": "project",
+  "require": {
+    "maximebf/debugbar": "^1.16",
+    "ext-pdo": "*"
+  },
+  "authors": [
+    {
+      "name": "Ulysse ARNAUD",
+      "email": "mexanga@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  }
+}
